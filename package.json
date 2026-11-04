@@ -1,0 +1,32 @@
+{
+  "name": "@elnemer70/nginx-conf-gen",
+  "version": "1.0.0",
+  "description": "Generate production Nginx reverse proxy configuration blocks with SSL",
+  "bin": {
+    "nginx-conf-gen": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "nginx",
+    "sysadmin",
+    "web"
+  ],
+  "author": "ElNeMeR70",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElNeMeR70/nginx-conf-gen.git"
+  },
+  "homepage": "https://github.com/ElNeMeR70/nginx-conf-gen#readme",
+  "bugs": {
+    "url": "https://github.com/ElNeMeR70/nginx-conf-gen/issues"
+  }
+}
